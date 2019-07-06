@@ -32,7 +32,7 @@ Parameters:
 
 ## Error
 
-Use the `{{ download:errors }}` the same way you would the `{{ form:errors }}`, i.e. as single tag or a tag pair.
+Use the `{{ download:errors }}` the same way you would the [`{{ form:errors }}`](https://docs.statamic.com/tags/form-errors), i.e. as single tag or a tag pair.
 
 For example:
 
