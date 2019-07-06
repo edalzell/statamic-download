@@ -30,7 +30,7 @@ Parameters:
 * `container` (optional) - container the file is in. If you leave it out, the one in the settings will be used.
 * `email` (required) - email address allowed to download the file
 
-## Error
+## Errors
 
 Use the `{{ download:errors }}` the same way you would the [`{{ form:errors }}`](https://docs.statamic.com/tags/form-errors), i.e. as single tag or a tag pair.
 
