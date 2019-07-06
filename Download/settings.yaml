@@ -1,0 +1,4 @@
+fields:
+  container:
+    type: suggest
+    mode: download.asset_containers

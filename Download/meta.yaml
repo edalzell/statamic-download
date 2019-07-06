@@ -1,0 +1,8 @@
+name: Download
+version: "1.0"
+developer: Erin Dalzell
+description: Allow a file to be downloaded only once, or only if the user is logged in
+url: https://silentzconsulting.com/addons/download
+developer: Erin Dalzell
+developer_url: https://silentzconsulting.com/addons
+commercial: true
