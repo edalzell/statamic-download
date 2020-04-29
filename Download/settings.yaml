@@ -2,3 +2,4 @@ fields:
   container:
     type: suggest
     mode: download.asset_containers
+    max_items: 1
