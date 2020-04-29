@@ -9,8 +9,11 @@ class AssetContainersSuggestMode extends AbstractMode
 {
     public function suggestions()
     {
-        return AssetContainer::all()->map(function ($container, $key) {
-            return ['value' => $key, 'text' => $container->title()];
-        })->values()->all();
+        return AssetContainer::all()
+            ->filter(function ($container) {
+                return !$container->accessible();
+            })->map(function ($container, $key) {
+                return ['value' => $key, 'text' => $container->title()];
+            })->values()->all();
     }
 }
