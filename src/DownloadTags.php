@@ -10,13 +10,10 @@ class DownloadTags extends Tags
 
     public function index()
     {
-        /** @var \Statamic\Assets\Asset */
-        $asset = $this->params->get('file');
-
         return route(
             'statamic.download.show',
             [
-                'path' => $asset->path(),
+                'path' => $this->params->get('file'),
                 'container' => $this->params->get('container'),
             ]
         );
