@@ -21,11 +21,12 @@ The package will automatically register itself.
 
 **NOTE**: assets must be private (otherwise they are publicly accessible and can always be downloaded)
 
-# Usage
+## Usage
 
-## By User
+The `{{ download }}` tag produces a url that will only allow the file to be downloaded if the user is logged in.
 
-The `{{ download }}` tag will only allow the file to be downloaded if the user is logged in.
+If someone not logged in tries the link, there will be an error returned in the `errors` session key.
+
 Parameters:
 
 * `file` (required) - name of the file
