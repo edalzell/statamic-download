@@ -1,0 +1,19 @@
+{
+    "name": "edalzell/download",
+    "autoload": {
+        "psr-4": {
+            "Edalzell\\Download\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Download",
+            "description": "Download addon"
+        },
+        "laravel": {
+            "providers": [
+                "Edalzell\\Download\\ServiceProvider"
+            ]
+        }
+    }
+}
